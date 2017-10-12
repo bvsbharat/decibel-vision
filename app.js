@@ -92,6 +92,7 @@ app.openCam = function(){
     app.$.camBtn.style.display = 'none';
     app.$.header.style.display = 'none';
      speak('Please take a photo of product');
+      app.$.labelInfo.innerHTML = "Please take a photo of product" ;
 }
 
 app.closeCam  = function(){
