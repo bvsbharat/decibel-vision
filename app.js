@@ -129,9 +129,9 @@ app.closeCam  = function(){
 
 
       }else{
-          console.log("take photo with product label");
-          app.$.labelInfo.innerHTML = "take photo with product label" ;
-          speak('take photo with product label');
+          console.log("take photo with product");
+          app.$.labelInfo.innerHTML = "take photo with product" ;
+          speak('take photo with product');
       }
 
     app.$.video.play();
