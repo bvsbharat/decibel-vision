@@ -2,4 +2,4 @@
 
 Playing around with the new [Google Cloud Vision API](https://cloud.google.com/vision/)
 
-Live demo: https://scarygami.github.io/cloud-vision-api-playground/
+Live demo: https://bvsbharat.github.io/decibelVision/
