@@ -99,6 +99,9 @@
     cursor: pointer;
 }
 
+#camBtn img{
+    cursor: pointer;
+}
 .cam-btn,.cam-labelInfo{
     position: absolute;
     left: 50%;
@@ -126,7 +129,7 @@
 
 .cam-labelInfo{
     top: 20px;
-    color: #2e2a2a;
+    color: #fff;
     font-size: 23px;
     font-family: monospace;
     text-transform: capitalize;
