@@ -91,6 +91,7 @@ app.openCam = function(){
     app.$.cam.style.display ='block';
     app.$.camBtn.style.display = 'none';
     app.$.header.style.display = 'none';
+     speak('Please take a photo of product');
 }
 
 app.closeCam  = function(){
@@ -126,10 +127,7 @@ app.closeCam  = function(){
 
            filterProduct(details.responses[0].fullTextAnnotation.text);
 
-
-
       }else{
-          console.log("take photo with product");
           app.$.labelInfo.innerHTML = "take photo with product" ;
           speak('take photo with product');
       }
