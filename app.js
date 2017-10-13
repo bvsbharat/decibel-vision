@@ -169,6 +169,8 @@ app.closeCam  = function(){
              app.$.labelInfo.innerHTML = "Highland Self-Stick Removable Notes !";
          }else if(productId.search("camli")>-1 && productId.search("pencil")>-1){
              app.$.labelInfo.innerHTML = "Camlin Black Pencils !";
+          }else if(productId.search("nataraj")>-1 && productId.search("sharpener")>-1){
+             app.$.labelInfo.innerHTML = "Nataraj Sharpener!";
          }else if(productId.search("camli")>-1 && (productId.search("board")>-1 || productId.search("marker")>-1)){
              app.$.labelInfo.innerHTML = "Camlin White Board Marker !";
          }else{
